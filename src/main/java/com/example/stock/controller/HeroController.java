@@ -10,6 +10,6 @@ public class HeroController {
 
 	@RequestMapping(value = "/firstAPI")
 	public ResponseEntity<Object> firstAPI(){
-		return new ResponseEntity<Object>("HELLO WORLD API", HttpStatus.OK);
+		return new ResponseEntity<Object>("HELLO WORLD API V.2", HttpStatus.OK);
 	}
 }
